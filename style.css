@@ -15,22 +15,6 @@
   overflow: hidden;
 }
 
-#scrollText {
-  display: flex;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#sliderWindow {
-  display:flex;
-}
-
-#scrollerWindow {
-  display: flex;
-  transform: translateX(-400px);
-  animation: oscillate 30s;
-}
-
 .header a {
   float: left;
   color: black;
@@ -61,6 +45,22 @@ img {
   height: auto;
 }
 
+#scrollText {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#sliderWindow {
+  display:flex;
+}
+
+#scrollerWindow {
+  display: flex;
+  transform: translateX(-400px);
+  animation: oscillate 60s infinite;
+}
+
 #buttonContainer{
   display: flex;
   justify-content: space-between;
@@ -73,11 +73,32 @@ img {
   0% {
     transform: translateX(0px);
   }
-  33% {
+  10% {
     transform: translateX(-400px);
   }
-  66% {
+  20% {
     transform: translateX(-800px);
+  }
+  30% {
+    transform: translateX(-1200px);
+  }
+  40% {
+    transfrom: translateX(-1600px);
+  }
+  50% {
+    transform: translateX(-2000px);
+  }
+  60% {
+    transform: translateX(-2400px);
+  }
+  70% {
+    transform: translateX(-2800px);
+  }
+  80% {
+    transform: translateX(-3200px);
+  }
+  90% {
+    transform: translateX(-3600px);
   }
   100% {
     transform: translateX(0px);
