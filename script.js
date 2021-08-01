@@ -9,6 +9,8 @@ function prevImage() {
   }
   // translate the slider by width (400px) of the image
   slider.style.transform = `translateX(${sliderPosition}px)`;
+
+  console.log("You're veiwing photo " + sliderPosition/-400);
 }
 
 function nextImage() {
@@ -20,6 +22,8 @@ function nextImage() {
   }
   // translate the slider by width (-400px) of the image
   slider.style.transform = `translateX(${sliderPosition}px)`;
+
+  console.log("You're veiwing photo " + sliderPosition/-400);
 }
 
 
