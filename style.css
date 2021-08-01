@@ -54,6 +54,7 @@ img {
 #slideText {
   display:flex;
   justify-content: center;
+  text-align: center;
 }
 
 #sliderWindow {
@@ -72,6 +73,10 @@ img {
   position: relative;
   top: -37.5em;
   height: 37.5em;
+}
+
+#linkText {
+  text-align: center;
 }
 
 @keyframes oscillate {
